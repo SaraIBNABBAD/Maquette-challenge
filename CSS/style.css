@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+}
+/* ------------SECTION 1 -------------- */
+#sec1,#sec5,#sec9{
+    background-color: #FF6B81;
+    padding: 50px;
+    box-sizing: border-box;
+}
+#appl {
+    color: #FF6B81;
+}
+/* ------------SECTION 2 -------------- */
+#sec2,#sec11{
+    background-color: rgb(243, 243, 243);
+}
+#sec2 h4, #sec11 h4{
+    color: #FF6B81;
+}
+
+#btn1,#btn2{
+    background-color: #FF6B81;
+    color: white;
+}
+#sec7>h5{
+    color: #FF6B81;
+}
+.accordion-header:hover{
+    background-color: #FF6B81;
+}
+
+
