@@ -11,22 +11,55 @@ body{
     color: #FF6B81;
 }
 /* ------------SECTION 2 -------------- */
-#sec2,#sec11{
+#sec2,#sec11,#sec6,#sec8{
     background-color: rgb(243, 243, 243);
 }
-#sec2 h4, #sec11 h4{
+ h4,#sec7 p{
     color: #FF6B81;
 }
 
-#btn1,#btn2{
+#btn1,#btn2,#btn3{
     background-color: #FF6B81;
     color: white;
 }
-#sec7>h5{
+#sec7>h5,#sec6 i{
     color: #FF6B81;
 }
 .accordion-header:hover{
     background-color: #FF6B81;
 }
-
+#sec2 i{
+    color: white;
+    border: 1px #FF6B81  solid;
+    border-radius: 5px;
+    background-color: #FF6B81;
+    padding: 10px;
+    box-shadow:rgb(243, 243, 243)0px 2px 3px 2px;
+}
+#sec3 i,#sec4 i{
+    color: white;
+    border: 1px #FF6B81  solid;
+    border-radius: 5px;
+    background-color: #FF6B81;
+    padding: 10px;
+    
+}
+#sec6 ul li{
+    list-style: none;
+    
+}
+#sec8 img,.mg img{
+    width: 55px;
+    margin: auto;
+}
+footer ul li{
+    list-style: none;
+}
+footer img{
+    width: 150px;
+}
+footer input{
+    background-color: #394653;
+    outline: none;
+}
 
