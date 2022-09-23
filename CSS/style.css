@@ -64,4 +64,8 @@ footer input{
     border: #394653 1px solid;
     border-radius: 1px
 }
+#sec10 button:hover{
+    background-color: #FF6B81;
+    color: white;
+}
 
