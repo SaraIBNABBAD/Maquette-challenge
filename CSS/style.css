@@ -1,11 +1,35 @@
 body{
     margin: 0;
 }
+nav{
+    z-index: 1000;
+    top: 0 ;
+    right: 0;
+    left: 0;
+}
+nav ul li{
+    margin: 15px;
+    text-align: center;
+}
+#get{
+    padding: 5px;
+    background-color: #FF6B81;
+    width: 100px;
+}
 /* ------------SECTION 1 -------------- */
 #sec1,#sec5,#sec9{
     background-color: #FF6B81;
     padding: 50px;
     box-sizing: border-box;
+}
+#flech{
+    position: fixed;
+    bottom: 0;
+    right: 30px;
+    background-color: #FF6B81;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
 }
 #appl {
     color: #FF6B81;
@@ -48,24 +72,50 @@ body{
     list-style: none;
     
 }
-#sec8 img,.mg img{
+#sec8 img{
     width: 55px;
     margin: auto;
 }
+.imge{
+    vertical-align: top;
+}
+.imge img{
+    margin: 20px;
+    width: 55px;
+}
+
 footer ul li{
     list-style: none;
 }
 footer img{
     width: 150px;
 }
+
 footer input{
     background-color: #394653;
     outline: none;
     border: #394653 1px solid;
-    border-radius: 1px
+    border-radius: 5px;
+    padding: 5px;
 }
 #sec10 button:hover{
     background-color: #FF6B81;
     color: white;
+    outline: none;
+}
+#sec11 ul li{
+    display: inline-block;
+    
+    
+}
+#sec11 ul{
+    padding: 0;
+    
+}
+ footer #bn{
+    margin-right: 10px;
+}
+.infoTeam{
+    margin: 0;
 }
 

@@ -14,9 +14,9 @@ integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1
 <body>
     <!------------NAV--------------->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-white bg-white">
-          <div class="container px-5 ">
-            <a class="navbar-brand" href="#">&nbsp; <img src="images/logo.svg" alt="logo" class="w-50"></a>
+        <nav class="navbar navbar-expand-lg navbar-white bg-white position-fixed ">
+          <div class="container px-5">
+            <a class="navbar-brand" href="#sec1">&nbsp; <img src="images/logo.svg" alt="logo" class="w-50"></a>
             <button
               class="navbar-toggler"
               type="button"
@@ -30,38 +30,36 @@ integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                      <a class="nav-link text-dark"  aria-current="page" href="#">Home</a>
+                      <a class="nav-link text-dark"  aria-current="page" href="#sec1">Home</a>
                     </li>
                         <li class="nav-item">
-                          <a class="nav-link text-dark" aria-current="page" href="#">Feature</a>
+                          <a class="nav-link text-dark" aria-current="page" href="#sec2">Feature</a>
                         </li>  
                             <li class="nav-item">
-                              <a class="nav-link text-dark" aria-current="page" href="#">Overview</a>
+                              <a class="nav-link text-dark" aria-current="page" href="#sec3">Overview</a>
                             </li>
                                 <li class="nav-item">
-                                  <a class="nav-link text-dark" aria-current="page" href="#">Pricing</a>
+                                  <a class="nav-link text-dark" aria-current="page" href="#sec6">Pricing</a>
                                  </li>  
                                  <li class="nav-item">
-                                    <a class="nav-link text-dark" aria-current="page" href="#">Team</a>
+                                    <a class="nav-link text-dark" aria-current="page" href="#sec7">Team</a>
                                    </li>  
                                    <li class="nav-item">
-                                    <a class="nav-link text-dark" aria-current="page" href="#">Blog</a>
+                                    <a class="nav-link text-dark" aria-current="page" href="#sec11">Blog</a>
                                    </li>  
                                    
                                    <li class="nav-item">
-                                    <a class="nav-link text-dark" aria-current="page" href="#">Contact</a>
+                                    <a class="nav-link text-dark" aria-current="page" href="#footer">Contact</a>
                                    </li>  
                     </ul>
               </div>
-              <div>
-                <button class="btn btm-sm text-white" style="background-color: #FF6B81;">Get It Now</button>
-              </div>
+                <button id="get" class="btn btm-sm text-white" >Get It Now</button>
           </nav>
         </header>
 
         <!--------SECTION 1---------->
         <section id="sec1">
-            <div class="container-fluid"></div>
+            <div class="container-fluid p-5"></div>
             <div class="row">
                 <div class="col-6 text-white mt-5">
                     <h1>A Powerful App For Your Business</h1>
@@ -73,12 +71,11 @@ integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1
                     <picture>
                         <img src="images/phone.png" alt="phone" width="500">
                     </picture>
-                    <i class="fa-solid fa-chevron-up text-white mb-5"></i>
                 </div>
             </div>
         </section>
 
-        <!-- SECTION 2 -->
+        <!-- SECTION 2 FEATURES -->
         <section id="sec2" class="p-5">
             <div class="container-fluid justify-items-center " >
                 <div class="text-center w-50 m-auto">
@@ -323,7 +320,7 @@ integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1
                 <div class="container">
                     <h4 class="text-center">TEAM</h4>
                     <h1 class="text-center">Meat Our Team</h1>
-                    <p class="text-secondary text-center w-50 m-auto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis, ducimus. Nobis voluptates sit soluta </p>
+                    <p class="text-secondary text-center  m-auto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis, ducimus. Nobis voluptates sit soluta </p>
 
                     <div class="container">
                         <div class="row g-3">
@@ -353,38 +350,37 @@ integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1
                                         <div>
                                           <h5>Leonard Krasner</h5>
                                           <p>Senior Designer</p>
-                                         </div>                                   
-                                         <div>
-                                          <i class="fa-brands fa-twitter"></i>
-                                          <i class="fa-brands fa-linkedin-in"></i>
-                                        </div>
+                                        </div>                                   
+                                            <div>
+                                              <i class="fa-brands fa-twitter"></i>
+                                              <i class="fa-brands fa-linkedin-in"></i>
+                                            </div>
                                       </div>
+                                    </div>
                                 </div>
-                            
-                                
-                            </div>
-                            <div class="col-md-4">
-                                <div class="card" >
-                                    <img src="images/team3.jpg" class="card-img-top" alt="team1">
-                                    <div class="card-body ">
-                                      <div class="d-flex justify-content-between">
-                                        <div>
-                                          <h5>Leonard Krasner</h5>
-                                          <p>Senior Designer</p>
-                                         </div>                                   
-                                         <div>
-                                          <i class="fa-brands fa-twitter"></i>
-                                          <i class="fa-brands fa-linkedin-in"></i>
-                                        </div>
-                                      </div>
-                                </div>
-                            
-                                
-                            </div>
-                        </div>
-    
                         
-                    </div>
+                            </div>
+                            
+                            <div class="col-md-4">
+                              <div class="card" >
+                                  <img src="images/team3.jpg" class="card-img-top" alt="team3">
+                                  <div class="card-body ">
+                                    <div class="d-flex justify-content-between">
+                                      <div>
+                                        <h5>Leonard Krasner</h5>
+                                        <p>Senior Designer</p>
+                                      </div>                                   
+                                          <div>
+                                            <i class="fa-brands fa-twitter "></i>
+                                            <i class="fa-brands fa-linkedin-in"></i>
+                                          </div>
+                                    </div>
+                                  </div>
+                              </div>
+                      
+                          </div>
+                            
+                          </div>
                     </div>
                 </div>
             </section>
@@ -510,8 +506,16 @@ integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1
                                           <h5>Boost your conversion rate</h5>
                                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum vel possimus at, itaque delectus impedit nam</p>
                                     </div>
-                                      <div class="mg">
+                                      <div class="imge d-flex">
                                         <img src="images/comment1.jpg" alt="" class="rounded-circle">
+                                        <div>
+                                          <h6>Roel Aufderhar</h6>
+                                          <ul>
+                                            <li>Mar 15,2023</li>
+                                            <li>5 min read</li>
+                                          </ul>
+                                        </div>
+                                        
                                       </div>
                                   </div>
                                 </div>
@@ -525,8 +529,16 @@ integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1
                                           <h5>How to use search engine</h5>
                                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum vel possimus at, itaque delectus impedit nam.</p>
                                         </div>
-                                        <div class="mg">
+                                        <div class="imge d-flex">
                                           <img src="images/comment2.jpg" alt="" class="rounded-circle">
+                                          <div>
+                                            <h6>Jenifer Zuliya</h6>
+                                        <ul>
+                                          <li>Feb 10,2023</li>
+                                          <li>7 min read</li>
+                                        </ul>
+                                          </div>
+                                          
                                         </div>
                                     </div>
                                 </div>
@@ -540,8 +552,16 @@ integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1
                                           <h5>Awsesome ways to boost sales</h5>
                                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum vel possimus at, itaque delectus impedit nam</p>
                                         </div>
-                                        <div class="mg">
+                                        <div class="imge d-flex">
                                           <img src="images/comment3.jpg" alt="" class="rounded-circle">
+                                          <div class="infoTeam">
+                                            <h6>Roel Aufderhar</h6>
+                                            <ul>
+                                              <li>Jan 20,2023 </li>
+                                              <li>6 min read</li>
+                                            </ul>
+                                          </div>
+                                         
                                         </div>
                                     </div>
                                 </div>
@@ -572,15 +592,15 @@ integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" 
 integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 <!-- FOOTER -->
-<footer class="">
-  <div class="container-fluid  bg-dark m-auto" >
+<footer id="footer">
+  <div class="container-fluid  bg-dark m-auto p-3" >
     
-    <div class="row g-3 text-white p-5">
+    <div class="row g-5 text-white ">
             
       <div class="col-3">
         <img src="images/white-logo.svg" alt="logo-blanc"> 
         <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit Minima rerum</p> 
-        <div class="text-white">
+        <div class="text-white ">
           <i class="fa-brands fa-facebook-f"></i>
           <i class="fa-brands fa-twitter"></i>
           <i class="fa-brands fa-instagram"></i>
@@ -630,17 +650,24 @@ integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4
         </ul>
       </div>
     </div> 
-    <div class="container">
-      <div class=" col w-70 form-control border-secandary bg-dark p-3">
-       
-        <h6>Lorem ipsum dolor sit amet</h6>
+    <div class="container ">
+      <div class=" col-1 w-70 form-control border-secandary bg-dark d-flex">
+      <div>
+        <h6 class="text-white">Lorem ipsum dolor sit amet</h6>
         <p class="text-white d-inline">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui doloribus harum</p>
-        <input type="text" placeholder="Your email adress" class="boder border-secandary">
+      </div>
+        
+      
+        
+        <div id="bn">
+          <input type="text" placeholder="Your email adress" class="boder border-secandary">
         <button id="btn3" class="btn">Subscribe</button>
+        </div>
+        
       
     </div>
     </div>
-    
+    <a href="#sec1"><i class="fa-solid fa-chevron-up text-white mb-5" id="flech"></i></a>
   </div>
 </footer>
 </body>
